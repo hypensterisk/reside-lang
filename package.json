@@ -2,6 +2,10 @@
   "name": "reside-lang",
   "version": "0.0.0",
   "bin": {
-    "reside":"bin/reside.js"
-  }
+    "reside": "bin/reside.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  },
+  "type":"module"
 }
