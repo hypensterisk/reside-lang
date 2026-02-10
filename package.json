@@ -2,10 +2,16 @@
   "name": "reside-lang",
   "version": "0.0.0",
   "bin": {
-    "reside": "bin/reside.js"
+    "reside": "bin/reside.cjs"
   },
-  "dependencies": {
-    "commander": "^14.0.3"
+  "type": "module",
+  "devDependencies": {
+    "commander": "^14.0.3",
+    "esbuild": "^0.27.3",
+    "moo": "^0.5.2",
+    "nearley": "^2.20.1"
   },
-  "type":"module"
+  "scripts": {
+    "build": "node build.js"
+  }
 }
